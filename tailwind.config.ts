@@ -8,10 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      transitionDuration:{
+        DEFAULT:'300ms'
       },
+      container:{
+        center:true,
+        padding:'1.5rem'
+      },
+    
     },
   },
   plugins: [],
